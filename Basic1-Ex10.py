@@ -1,0 +1,5 @@
+n = int(input("n = "))
+a = str(n) + str(n)
+b = str(n) + str(n) + str(n)
+s = int(n) + int(a) + int(b)
+print(str(n) + " + " + str(a) + " + " + str(b) + "= " + str(s))

@@ -1,0 +1,5 @@
+name = input("File name: ")
+ext = name.split('.')
+print(ext[1])
+a = int(len(ext))
+print(a)
